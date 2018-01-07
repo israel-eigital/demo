@@ -1,8 +1,26 @@
 {
-    "name": "demo",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "Esaud Israel",
-    "contributors": [],
-    "dependencies": {}
+  "name": "demo",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Esaud Israel",
+  "contributors": [],
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "description": "demo project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/israel-eigital/demo.git"
+  },
+  "license": "MIT"
 }

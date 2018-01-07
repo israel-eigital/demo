@@ -1,12 +1,27 @@
 {
-    "name": "demo",
-    "version": "1.0.0",
-    "main": "path/to/main.css",
-    "ignore": [
-        ".jshintrc", "**/*.txt"
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.html",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.8",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "authors": [
+    "Israel Sanchez <israel.sanchez@eigital.com>"
+  ],
+  "description": "demo project",
+  "license": "MIT",
+  "homepage": "",
+  "private": true
 }
