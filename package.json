@@ -10,9 +10,7 @@
   ],
   "author": "Esaud Israel",
   "contributors": [],
-  "dependencies": {
-    "grunt": "^1.0.1"
-  },
+  "dependencies": {},
   "description": "demo project",
   "main": "main.js",
   "scripts": {
@@ -22,5 +20,11 @@
     "type": "git",
     "url": "https://github.com/israel-eigital/demo.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
 }

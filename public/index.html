@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -11,6 +6,29 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>let used for local variable</div>
+        
+        <script src="../app/models/persona.js"></script>
+        <script src="../app/controllers/callback.js"></script>
+        <script src="../app/utils/array.js"></script>
+        <script>
+            var persona = persona("Israel", "31/01/81");
+            document.write(persona.getInfo());
+            console.log(persona.valueOf());
+            
+            var producto = new Producto("Papas", 23.99);
+            document.write(producto.getInfo());
+            
+            var casa = new casaProto();
+            casa.direccion = "Av. principal";
+            casa.numero = 1;
+            console.log(casa);
+            document.write(casa.getInfo());
+            
+            let funcs = 0;
+            funcb(funcs);
+            
+            console.log(arreglo);
+        </script>
     </body>
 </html>
