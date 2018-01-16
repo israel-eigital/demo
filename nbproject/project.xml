@@ -8,5 +8,6 @@
         <grunt-tasks xmlns="http://www.netbeans.org/ns/build-tool-tasks/1">
             <workdir path="" showSimpleTasks="true"/>
         </grunt-tasks>
+        <libraries xmlns="http://www.netbeans.org/ns/cdnjs-libraries/1"/>
     </configuration>
 </project>
