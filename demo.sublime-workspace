@@ -1,0 +1,385 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "POSLabsQSRUI q\n----\nHalil and Nicholas = PM\nRPS = Restauran Point of Sale\n- System based in SOA with commons APIs (mobile and Panel)\n- Web Panel (Angular2)  ==> php layer ==> backend server (REST apis)\n- api calls are encrypted based on PCI php layer handed the encryp on api calls\n\nQSR (UI):\t\thttp://dashboard.poslabs.com\nePaisa:\t\t\thttps://sdashboard.epaisa.com\nStaging (API):\thttps://nine.epaisa.com\n\n\nWeb Panel (Angular2)  ==> php layer ==> backend server (REST apis)\n\nangular =====> php layer    ======> backend\n    (session)                     (token)\n\n\ncode\n-----\n+ comillas simples\n+ json ocn formato\n+ todas las funciones a scope\n+ tab 2 espacios\n\nConfig files for ignoring\n-----\napp/scripts/config.js\napp/php/.htaccess\napp/php/config.php\n\nAngular\n-----\n1.\napp > scripts > config.js\n// catch request\n.state('customers', {\n    url: '/customers',\n    controller: 'customersCtrl',\n    templateUrl: 'views/customer/customer.php',\n    data: {\n        pageTitle: 'Customers',\n        authorization: true,\n        redirectTo: 'login'\n    }\n})\n\n2. controllr\napp > scripts > controller\n\n\nReference\n-----\nrestaurant > locations\n\nAPI\n---\nfrom angular we call our php file => /menus.php?action=get\nand on that php file it goes and calls he backend => GET https://nine.epaisa.com/qsr/menus\n\n---> on QSR, i think we have /layout /zone /area /table api calls. Their crud operations are there.\nYou also have access to epaisa ui codes, all crud operations are also there. It uses the same mechanism. It also has a php layer.\n\nyou will need to check current api calls to understand how the apis are called. But basically concept is like this:\n\nOur api calls are token based, so when you make a login call you receive a response that includes \"auth_key\" parameter. That key is a token that's valid only for one hour.\n\nIn all of the apis, you need to send that token so that the call is valid\n\nwe keep the token inside the session in php layer, this way it's never returned back to angularjs\n\nbasically we usually concat 2 parameters on api calls using #### and first param is the token second param is a json string that has the key value pairs as required by that particular api call\n-----\n\n\n\n\n\nTimedoctor\n----\nctrl + alt + t => ventana\nctrl + alt + b => receso\nctrl + alt + c => continuar",
+			"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/POSLabsQSRUI q",
+			"file_size": 2273,
+			"file_write_time": 131607693439421586,
+			"settings":
+			{
+				"buffer_size": 2280,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
+			"settings":
+			{
+				"buffer_size": 4875,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<html>\n\t<head>\n\t\t<title>GIT</title>\n\t</head>\n\t<body>\n\t\t<ul>\n\t\t\t<li>git clone git://github.com/schacon/grit.git namedir</li>\n\t\t\t<li>Changes to be committed: cambios a confirmar</li>\n\t\t\t<li>Changes not staged for commit: Modificados pero no preparados para commit => git add para prepararlo para commit</li>\n\t\t\t<li>git add -> pone los archivos en stage listos para commit</li>\n\t\t\t<li>git reset HEAD file/file.js => saca el archivo de stage</li>\n\t\t\t<li>Directorio de trabajo | área de preparación | </li>\n\t\t\t<li>Para eliminar archivo $git rm -f file.hhh</li>\n\t\t\t<li></li>\n\t\t\t<li></li>\n\t\t\t<li></li>\n\t\t</ul>\n\t</body>\n</html>",
+			"file": "app/git.html",
+			"file_size": 595,
+			"file_write_time": 131607707858816328,
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "3789\ncreated_at\n:\n1516296918\nmerchantId\n:\n3791\nparentProductCategoryId\n:\nnull\nproductCategoryColor\n:\n\"#b32828\"\nproductCategoryId\n:\n1853\nproductCategoryName\n:\n\"Categoria Israel\"\nstatus\n:\n1\nupdatedUserId\n:\n3789\nupdated_at\n:\n1516323225\n__proto__\n:\nObject\n\n | propsFilter: {name: $select.search, age: $select.search} : 132  | highlight: $select.search",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Windows",
+				"name": "3789"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "joson",
+		"selected_items":
+		[
+			[
+				"joson",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sets",
+				"Set Syntax: HTML"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"oack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Esaud Israel/Documents/Node/demo",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app"
+	],
+	"file_history":
+	[
+		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app/git.html",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app/models/persona.js",
+		"/C/Users/Esaud Israel/Desktop/menu.json",
+		"/C/Users/Esaud Israel/Documents/Node/apuntes/manejador.js",
+		"/C/AppServ/Apache24/conf/httpd.conf",
+		"/C/AppServ/php7/php.ini",
+		"/C/Users/Esaud Israel/AppData/Roaming/npm/grunt",
+		"/C/Users/Esaud Israel/Desktop/app/controller/customer/customer.js",
+		"/C/Users/Esaud Israel/Desktop/app/views/customer/customer.php",
+		"/C/AppServ/php5/php.ini",
+		"/C/AppServ/Apache24/conf/extra/httpd-info.conf",
+		"/C/AppServ/Apache24/conf/extra/httpd-proxy-html.conf",
+		"/C/AppServ/Apache24/conf/extra/httpd-userdir.conf",
+		"/C/AppServ/Apache24/conf/extra/httpd-vhosts.conf",
+		"/C/Users/Esaud Israel/Desktop/github-recovery-codes.txt"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/POSLabsQSRUI q",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 552.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4010,
+								4010
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/git.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								128
+							]
+						],
+						"settings":
+						{
+							"auto_name": "3789",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "demo.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Hola mundo"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

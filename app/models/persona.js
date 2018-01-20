@@ -1,8 +1,8 @@
 // factory
 var persona = function(nombre, fechaNac){
     var persona = {};
-    persona.nombre = nombre;
-    persona.fechaNac = fechaNac;
+    persona.nombre = (nombre || 'Sin nombre'); // parámetros por defecto
+    persona.fechaNac = (fechaNac || 'Sin fecha'); // parámetro por defecto
     persona.getInfo = function(){
         return "persona: { nombre:" + persona.nombre + ", fechaNac: " + persona.fechaNac + "} ";
     };
