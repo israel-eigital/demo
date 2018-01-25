@@ -1,5 +1,7 @@
 /*!
-Concat: demo - v1.0.0 - 2018-01-21 */var funca = function(){
+Concat: demo - v1.0.0 - 2018-01-21 */
+
+var funca = function(){
     console.log('Soy A');
 };
 

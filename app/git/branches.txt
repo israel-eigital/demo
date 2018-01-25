@@ -8,3 +8,4 @@ add 1 en master
 add 2 en master
 añadido en b2
 otro en b2
+en master para stash
