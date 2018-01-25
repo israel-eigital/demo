@@ -9,3 +9,6 @@ add 2 en master
 añadido en b2
 otro en b2
 en master para stash
+sigamos escribiendo
+otro más en stash
+mira que bonito
