@@ -10,13 +10,15 @@ var persona = function(nombre, fechaNac){
 };
 
 // objet
+// new Objec() = {}
 var Producto = function(nombre, precio){
     this.nombre = nombre;
     this.precio = precio;
     
     this.getInfo = function(){
         // ojo con variables
-        return 'producto: { nombre: ${producto.nombre}, precio ${producto.precio} } ';
+        // los ` no los reconoce algunos compiladores
+        // return `producto: { nombre: ${producto.nombre}, precio ${producto.precio} } `;
     };
 };
 

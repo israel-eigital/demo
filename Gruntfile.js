@@ -6,6 +6,34 @@ module.exports = function (grunt) {
         
         // we can store the project settings from the package.json, import metadata
         pkg: grunt.file.readJSON('package.json'),
+        // aún no var serveStatic = require('serve-static');
+
+        // compile SASS
+        /*
+        sass: {
+            dist: {
+              files: [{
+                expand: true,
+                flatten: true,
+                src: ['assets/source/sass/*.scss'],
+                dest: 'assets/source/css/',
+                ext: '.css'
+              }]
+            }
+        },
+        */
+
+        // concat and minify CSS
+        /*
+        cssmin: {
+            styles: {    
+                files: {
+                    'public/css/style.min.css': ['assets/source/css/*.css']
+                }
+            }
+        },
+        */
+
         
         jshint: { // se configura jshint
             options: [], // todas las tareas tienen opciones
@@ -39,7 +67,7 @@ module.exports = function (grunt) {
               src: 'app/**/*.js', // todos los archivos
               dest: 'build/<%= pkg.name %>.min.js' // arma un solo archivo
             }
-          },
+        },
           
         connect: {
             server: {
@@ -66,6 +94,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     
     // Default task(s).
-    grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
+    grunt.registerTask('build', ['jshint', 'concat', 'uglify']);
+    grunt.registerTask('default', ['connect', 'watch']);
     
 };
