@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-app="myApp">
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
@@ -7,13 +7,25 @@
     </head>
     <body>
         
-        <p>Clases core: Object, Date, Array, Funciton, Number, String, Boolean, Math</p>
+        <div ng-controller="appCtrl" ng-init="count = 1;">
+            <input type="text" name="name" ng-model="xxx"> {{ xxx }}
+            <br>
+            count: {{ count + 1}}
+            <br>
+            <ul>
+                <li ng-repeat="(key, value) in names">
+                    key: {{ key }} value: {{ value }} name: {{ values.nombre }}
+                </li>
+            </ul>
+        </div>
         
+        <script  src="./dist/angular.js" type="text/javascript"></script>
+        <script src="./main.js"></script>
+        <!--
         <script src="./models/persona.js"></script>
         <script src="./controllers/callback.js"></script>
         <script src="./utils/array.js"></script>
-        <script src="./main.js">
-            
-        </script>
+        -->
+        
     </body>
 </html>

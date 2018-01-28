@@ -4,43 +4,54 @@
 		"selected_items":
 		[
 			[
+				"ng-r",
+				"ng-repeat\tAngularJS"
+			],
+			[
+				"ng-in",
+				"ng-init\tAngularJS"
+			],
+			[
+				"m",
+				"module\tAngularJS"
+			],
+			[
+				"lo",
+				"log\t( x: number ): number Math"
+			],
+			[
+				"arre",
+				"arreglo"
+			],
+			[
+				"p",
+				"push〔function〕"
+			],
+			[
+				"he",
+				"HEAD"
+			],
+			[
+				"bran",
+				"branch"
+			],
+			[
 				"person",
 				"persona"
 			],
 			[
 				"w",
 				"writeln〔function〕"
-			],
-			[
-				"arre",
-				"arreglo2"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Gruntfile.js",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 3178,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
-			"settings":
-			{
-				"buffer_size": 4875,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Esaud Israel/Documents/git",
-			"settings":
-			{
-				"buffer_size": 10557,
+				"buffer_size": 980,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -49,9 +60,26 @@
 			"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/POSLabsQSRUI q",
 			"settings":
 			{
-				"buffer_size": 2732,
-				"encoding": "UTF-8",
+				"buffer_size": 2892,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/main.js",
+			"settings":
+			{
+				"buffer_size": 949,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "apart from these you need to develope create customer with details some fields like \ntag or company name is not in the api but you can put them in customer details part look at the api and ask me if you need more information",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Windows",
+				"name": "apart from these you need to develope create custo"
 			}
 		}
 	],
@@ -135,21 +163,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Esaud Israel/Documents/Node/demo"
+		"/C/Users/Esaud Israel/Documents/Node/demo",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app"
 	],
 	"file_history":
 	[
-		"/C/AppServ/Apache24/conf/httpd.conf",
 		"/C/Users/Esaud Israel/Documents/Node/demo/app/utils/array.js",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app/main.js",
+		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/POSLabsQSRUI q",
+		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/customer.js",
+		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/customer.php",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app/git/branches.txt",
+		"/C/Users/Esaud Israel/Documents/git",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app/controllers/callback.js",
+		"/C/Users/Esaud Israel/Documents/Node/demo/app/controllers/ctrls.js",
+		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
+		"/C/Users/Esaud Israel/Documents/Node/demo/Gruntfile.js",
+		"/C/AppServ/Apache24/conf/httpd.conf",
 		"/C/Users/Esaud Israel/Documents/Node/demo/app/models/persona.js",
 		"/C/Users/Esaud Israel/Documents/Node/demo/package.json",
-		"/C/Users/Esaud Israel/Documents/Node/demo/app/main.js",
 		"/C/Users/Esaud Israel/Documents/Node/demo/app/index.html",
 		"/C/Users/Esaud Israel/Documents/Node/demo/main.js",
-		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
-		"/C/Users/Esaud Israel/Documents/POSLabsQSRUI/POSLabsQSRUI q",
 		"/C/Users/Esaud Israel/Documents/Node/demo/app/git/abc",
-		"/C/Users/Esaud Israel/Documents/Node/demo/app/git/branches.txt",
 		"/C/Users/Esaud Israel/Documents/Node/git",
 		"/C/Users/Esaud Israel/Documents/Node/demo/.gitignore",
 		"/C/Users/Esaud Israel/Documents/Node/demo/app/git.html",
@@ -171,7 +206,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -185,6 +220,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"stash",
 			"git add",
 			"rm",
 			"rebase",
@@ -209,35 +245,35 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gruntfile.js",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3178,
+						"buffer_size": 980,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1244,
-								1244
+								583,
+								583
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 99.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -245,89 +281,89 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/me.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4235,
-								4283
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1872.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Esaud Israel/Documents/git",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6477,
-								6477
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2878.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/C/Users/Esaud Israel/Documents/POSLabsQSRUI/POSLabsQSRUI q",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2732,
+						"buffer_size": 2892,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								403
+								412,
+								441
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								911,
+								911
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"auto_name": "apart from these you need to develope create custo",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

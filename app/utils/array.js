@@ -12,3 +12,17 @@ var arreglo = [
 // se puede acceder a través de
 document.write(arreglo[0].nombre + ' ');
 // document.write(arreglo[0]['nombre'] + ' ');
+
+arreglo.sort(); // ordena
+arreglo.reverse(); // ordena al revés
+arreglo.push();
+arreglo.pop();
+arreglo.join(';'); // unta elementos del arreglo en string
+
+// transforma obketo JS a string JSON
+var json = JSON.stringify({nombre:'pepe', apellido:'peres'}); 
+console.log(json);
+
+// transforma String JSON a obj js
+var obj = JSON.parse(json);
+console.log(obj);

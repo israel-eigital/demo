@@ -4,21 +4,31 @@
  * and open the template in the editor.
  */
 
-var persona = persona("Israel", "31/01/81");
-persona.edad = 100; // <= popiedad dinámica, se crea en el momento
-console.log(persona.edad);
+//ar persona = persona("Israel", "31/01/81");
+//persona.edad = 100; // <= popiedad dinámica, se crea en el momento
+//console.log(persona.edad);
 // document.write(persona.getInfo());
-console.log(persona.valueOf());
-
-var producto = new Producto("Papas", 23.99);
+//console.log(persona.valueOf());
+//var producto = new Producto("Papas", 23.99);
 // document.write(producto.getInfo());
-
-var casa = new casaProto();
-casa.direccion = "Av. principal";
-casa.numero = 1;
-console.log(casa);
+//var casa = new casaProto();
+//casa.direccion = "Av. principal";
+//casa.numero = 1;
+//console.log(casa);
 // document.write(casa.getInfo());
+//funcb(funca);
+//console.log(arreglo);
 
-funcb(funcs);
+/********* Angular ***********/
+'use strict'
+angular.module('myApp', []).controller('appCtrl', function($scope){
 
-console.log(arreglo);
+	$scope.xxx = 'Hola';
+	$scope.names = [
+		{nombre:'Pepe', edad: 20},
+		{nombre:'Juan', edad: 22},
+		{nombre:'Pedro', edad:12},
+		{nombre:'Pablo', edad:36}
+	];
+	
+});
