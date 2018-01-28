@@ -16,3 +16,4 @@ otro para stash forward
 =====
 rebase en master
 se añade en b2
+se agrega en b2 para ir a master
